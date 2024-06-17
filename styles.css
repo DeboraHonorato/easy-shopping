@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: right;
+  margin: 24px 58px 0 0;
+}
+
+.link-header {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 41.5px;
+  color: #5d5d7d;
+  cursor: pointer;
+  margin-right: 41px;
+}
+
+.caixa-texto {
+  display: inline-block;
+  width: 50%;
+}
+
+img {
+  display: inline-block;
+  width: 456px;
+  height: 561.95px;
+  margin: 106px 280px 0px 0px;
+}
+
+h1 {
+  margin: 160px 181px 15px 136px;
+  color: #5d5d7d;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 80px;
+}
+
+p {
+  margin: 0 131px 15px 136px;
+  text-align: justify;
+  padding-right: 100px;
+  color: #5d5d7d;
+  opacity: 60%;
+}
+
+button {
+  display: inline-block;
+  margin: 0 402px 123px 136px;
+  width: 269px;
+  height: 62px;
+  color: #ffffff;
+  box-shadow: 0px 10px 24px 0px #9499ea19;
+  background-color: #9499ea;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35.57px;
+  text-align: center;
+}
+.mascara {
+  height: 100%;
+  width: 43%;
+  background: #5d5d7d;
+  opacity: 16%;
+  margin-left: 900px;
+  top: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+#work {
+  opacity: 40%;
+}
+
+
+@media(max-width:760px){
+
+  body{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  header{
+    display: none;
+  }
+
+  .caixa-texto{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  h1{
+    font-size: 36px;
+    margin: 0;
+    width: 200px;
+    line-height: 50px;
+  }
+
+  p{
+    font-size: 14px;
+    margin: 12px 0;
+    padding: 0;
+    width: 200px;
+    text-align: center;
+  }
+
+  button{
+    margin: 10px 0;
+  }
+
+  img{
+    Width: 271px;
+    Height: 322.95px;
+    margin: 50px 0px 0px 0px;
+  }
+
+  .mascara {
+    height: 60%;
+    width: 100%;
+    opacity: 16%;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: absolute;
+    bottom: 0px;
+    top: 410px;
+  }
+
+}
